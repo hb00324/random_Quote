@@ -19,6 +19,9 @@
 }
 
 .item{
+    background: url(/images/bg-image-random-quote.svg) no-repeat;
+    background-size: cover;
+    background-position: 0px -50px;
     padding:3rem 1rem;
     width: 60%;
     min-width: 45%;
@@ -52,7 +55,7 @@
 }
 
 .container > .item .QuotesWrap .Quotes {
-    color: #4A5567;
+    color: #98A3B7;
     margin:2rem;
     font-size: 18px;
 }

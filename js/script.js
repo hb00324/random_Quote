@@ -7,7 +7,7 @@ fetch('https://api.quotable.io/random').then((response)=>{
         random = document.getElementById('Regroup'),
         tag1 = document.getElementById('tag1'),
         tag2 = document.getElementById('tag2');
-    Quotes.innerText = data.content; 
+    Quotes.innerText = "“"+data.content+"”"; 
     Title.innerText = data.author;
     if(data.tags.length < 2){
         tag1.innerText = data.tags[0]
