@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Outfit', sans-serif;
+}
+
+.wrapper{
+    background-color: #111729;
+    height: 100vh;
+}
+
+.container{
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.item{
+    padding:3rem 1rem;
+    width: 60%;
+    min-width: 45%;
+    margin: auto;
+    background-color: #20293A;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.item > h5{
+    color:#fff;
+    font-weight: bold;
+}
+
+.item > .tag button{
+    background-color: transparent;
+    border:1px solid #6466E9;
+    border-radius: 1.5rem;
+    color:#6466E9;
+    font-size: 12px;
+    padding:0.5rem 1.5rem ;
+    margin: 0 0.5rem;
+}
+.item > .tag{
+    margin:1rem;
+}
+
+.item > .tag button:hover{
+    background-color: #6466E9;
+    color:#20293A;
+}
+
+.container > .item .QuotesWrap .Quotes {
+    color: #4A5567;
+    margin:2rem;
+    font-size: 18px;
+}
+
+.container > .btnwrap{
+    margin:1rem;
+}
+.container > .btnwrap > button{
+    padding: 0.5rem 1rem;
+    background-color: #111729;
+    border: 2px solid #4A5567;
+}
+
+.container > .btnwrap > button:nth-child(1){
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-right: none;
+}
+
+.container > .btnwrap > button:nth-child(2){
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
